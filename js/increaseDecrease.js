@@ -147,7 +147,7 @@ var y = d3.scale.linear().range([height, 0]);
 		.attr("y", 6)
 		.attr("dy", ".71em")
 		.style("text-anchor", "end")
-		.text("Value ($)");
+		.text("Amount of crimes");
 
 	svg.selectAll("bar")
 		.data(increaseDecreaseJson)
